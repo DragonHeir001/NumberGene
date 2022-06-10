@@ -1,50 +1,14 @@
 #include <stdio.h>
-void challenge(int line, char c) {
-    printf("%d %c\n", line, c);
+
+char get_character(int number, int squared_num) {
+    if (number*number == squared_num) {
+        return 'a';
+    }
+    return 'b';
 }
+
 int main() {
-    int n = 1;
-    char a = 'a';
-    char b = 'b';
-    challenge(n, a);
-    n = n + 1;
-    challenge(n, b);
-    n = n + 1;
-    challenge(n, a);
-    n = n + 1;
-    challenge(n, b);
-    n = n + 1;
-    challenge(n, a);
-    n = n + 1;
-    challenge(n, b);
-    n = n + 1;
-    challenge(n, a);
-    n = n + 1;
-    challenge(n, b);
-    n = n + 1;
-    challenge(n, a);
-    n = n + 1;
-    challenge(n, b);
-    n = n + 1;
-    challenge(n, a);
-    n = n + 1;
-    challenge(n, b);
-    n = n + 1;
-    challenge(n, a);
-    n = n + 1;
-    challenge(n, b);
-    n = n + 1;
-    challenge(n, a);
-    n = n + 1;
-    challenge(n, b);
-    n = n + 1;
-    challenge(n, a);
-    n = n + 1;
-    challenge(n, b);
-    n = n + 1;
-    challenge(n, a);
-    n = n + 1;
-    challenge(n, b);
-    n = n + 1;
+    char var1 = get_character(4, 16);
+    printf("%c\n", var1);
     return 0;
 }
