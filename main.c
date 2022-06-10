@@ -1,27 +1,20 @@
 #include <stdio.h>
 void foodi() {
-    printf("\nit");
+    printf("a\n");
+}
+void ui() {
+    printf("b\n");
 }
 int main() {
     foodi();
+    ui();
     foodi();
+    ui();
     foodi();
+    ui();
     foodi();
+    ui();
     foodi();
-    foodi();
-    foodi();
-    foodi();
-    foodi();
-    foodi();
-    foodi();
-    foodi();
-    foodi();
-    foodi();
-    foodi();
-    foodi();
-    foodi();
-    foodi();
-    foodi();
-    foodi();
+    ui();
     return 0;
 }
