@@ -11,9 +11,18 @@ double convert_to_kelvin(double c) {
 int main() {
     printf("Provide fahrenheit temp:");
     double temp;
+    char var;
     scanf("%lf", &temp);
-    temp = convert_to_celsius(temp);
-    temp = convert_to_kelvin(temp);
-    printf("Kelvin temp:%lf", temp);
+    printf("Celsius or Kelvin? (c or k) ");
+    scanf("%s", &var);
+    if (var == 'c') {
+        temp = convert_to_celsius(temp);
+        printf("Celsius temp:%lf", temp);
+    }
+    if (var == 'k') {
+        temp = convert_to_celsius(temp);
+        temp = convert_to_kelvin(temp);
+        printf("Kelvin temp:%lf", temp);
+    } 
     return 0;
 }
