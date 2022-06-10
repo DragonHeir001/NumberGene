@@ -1,5 +1,27 @@
 #include <stdio.h>
+void foodi() {
+    printf("\nit");
+}
 int main() {
-    printf("Hi Isabel I'm NumberGene");
+    foodi();
+    foodi();
+    foodi();
+    foodi();
+    foodi();
+    foodi();
+    foodi();
+    foodi();
+    foodi();
+    foodi();
+    foodi();
+    foodi();
+    foodi();
+    foodi();
+    foodi();
+    foodi();
+    foodi();
+    foodi();
+    foodi();
+    foodi();
     return 0;
 }
